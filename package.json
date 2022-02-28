@@ -1,18 +1,35 @@
 {
   "name": "help-ukraine",
   "version": "1.0.0",
-  "description": "Stand with Ukraine and share the latest news/ resources with this React component.",
-  "main": "src/index.js",
+  "description": "Stand with Ukraine and share the latest news/ resources with this customizable React component.",
+  "main": "dist/index.js",
+  "module": "dist/indes.mjs",
   "author": "Justin Juno",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "ukraine",
+    "support",
+    "help",
+    "badge",
+    "banner",
+    "component",
+    "news",
+    "donations"
+  ],
+  "scripts": {
+    "build": "node esbuild.js && yarn tsc"
+  },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/react": "^17.0.39",
     "esbuild": "^0.14.23",
     "prettier": "2.5.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.5"
   }
 }
