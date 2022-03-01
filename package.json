@@ -1,9 +1,10 @@
 {
   "name": "help-ukraine",
   "version": "1.0.0",
-  "description": "Stand with Ukraine and share the latest news/ resources with this customizable React component.",
+  "description": "Stand with Ukraine and share the latest news/ resources with this customizable badge.",
   "main": "dist/index.js",
-  "module": "dist/indes.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "author": "Justin Juno",
   "license": "MIT",
   "keywords": [
