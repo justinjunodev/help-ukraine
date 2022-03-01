@@ -3,40 +3,42 @@ import * as React from 'react';
 interface HelpUkraineOptions {
   link?: string;
   text?: string;
-  size?: string;
+  size?: number;
   color?: string;
-  background?: string;
-  position?: 'top right' | 'top left' | 'bottom right' | 'bottom left';
-  padding?: string;
-  space?: string;
-  radius?: string;
+  bg?: string;
+  pos?: 'top right' | 'top left' | 'bottom right' | 'bottom left';
+  pX?: number;
+  pY?: number;
+  mX?: number;
+  mY?: number;
+  radius?: number;
 }
 
 export function HelpUkraine({
   link = 'https://crisisrelief.un.org/ukraine-crisis',
   text = 'Help Ukraine',
-  size = '14px',
+  size = 14,
   color = 'NavyBlue',
-  background = 'Gold',
-  position = 'bottom right',
-  padding = '4px 16px',
-  space = '16px',
-  radius = '4px',
+  bg = 'Gold',
+  pos = 'bottom right',
+  pX = 16,
+  pY = 4,
+  mX = 16,
+  mY = 16,
+  radius = 4,
 }: HelpUkraineOptions) {
   return (
     <aside
       style={{
         position: 'fixed',
-        display: 'flex',
-        alignItems: 'center',
-        top: position.includes('top') ? space : 'initial',
-        right: position.includes('right') ? space : 'initial',
-        bottom: position.includes('bottom') ? space : 'initial',
-        left: position.includes('left') ? space : 'initial',
+        top: pos.includes('top') ? `${mY}px` : 'initial',
+        right: pos.includes('right') ? `${mX}px` : 'initial',
+        bottom: pos.includes('bottom') ? `${mY}px` : 'initial',
+        left: pos.includes('left') ? `${mX}px` : 'initial',
         zIndex: 99999,
-        background: background,
-        padding: padding,
-        borderRadius: radius,
+        background: bg,
+        padding: `${pY}px ${pX}px`,
+        borderRadius: `${radius}px`,
       }}
     >
       <a
