@@ -1,6 +1,9 @@
 # Help Ukraine 🇺🇦
 
-Stand with Ukraine and share the latest news, resources, and charitable information with this customizable badge. Interactive demo available on [CodeSandbox](https://codesandbox.io/s/er20l6).
+Stand with Ukraine and share the latest news, resources, and charitable information with this customizable badge.
+
+- View package details on [npm](https://www.npmjs.com/package/help-ukraine).
+- View interactive demo on [CodeSandbox](https://codesandbox.io/s/er20l6).
 
 ![image](https://img.shields.io/badge/React-333333?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
