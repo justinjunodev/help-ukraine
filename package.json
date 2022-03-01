@@ -6,6 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "author": "Justin Juno",
+  "repository": "https://github.com/justinjunodev/help-ukraine",
   "license": "MIT",
   "keywords": [
     "react",
