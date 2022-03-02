@@ -1,6 +1,6 @@
 {
   "name": "help-ukraine",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Stand with Ukraine and share the latest news/ resources with this customizable badge.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
