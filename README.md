@@ -58,7 +58,7 @@ function App() {
 
 | Prop     | Type           | Default                                                        | Description                                                                                                             |
 | :------- | :------------- | :------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| `link`   | string         | [UN Crisis Relief](https://crisisrelief.un.org/ukraine-crisis) | Where the component links to.                                                                                           |
+| `link`   | string         | [UN Crisis Relief](https://crisisrelief.un.org/ukraine-crisis) | Where the component links to. See the "Verified Resources" section for more organizations that could use your support.                                                                                           |
 | `text`   | string         | 'Help Ukraine'                                                 | The text diplayed in the component.                                                                                     |
 | `size`   | number         | 14                                                             | The size of the text displayed in the component _(in pixels)_.                                                          |
 | `color`  | string         | 'NavyBlue'                                                     | The color of the text displayed in the component.                                                                       |
@@ -81,3 +81,19 @@ I appreciate your interest in this project and welcome you to contribute to it. 
 ### License:
 
 Licensed under MIT. For more information, please see the `LICENSE.md` file.
+
+---
+
+### Verified Resources:
+
+Here are some additional resources and organizations that could use your support during this time. 
+
+- [Red Cross](https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine)
+- [Sunflower of Peace](https://www.sunflowerofpeace.com/)
+- [Revived Soldiers Ukraine](https://www.rsukraine.org/)
+- [Voices of Children](https://voices.org.ua/)
+- [Care International](https://www.care.org/)
+- [Come Back Alive](https://savelife.in.ua/donate/)
+- [Army SOS](https://armysos.com.ua/)
+- [Razom for Ukraine](https://razomforukraine.org/)
+- [Doctors Without Borders](https://www.doctorswithoutborders.org/what-we-do/news-stories/news/msf-assesses-response-ukraine-conflict-escalates)
